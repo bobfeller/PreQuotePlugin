@@ -158,7 +158,7 @@ namespace ASG.Crm.Sdk.Web
                 QueryExpression query = new QueryExpression();
 
                 // Set the query to retrieve Lead records.
-                query.EntityName = "account";
+                query.EntityName = "account"; 
 
                 // Create a set of columns to return.
                 ColumnSet cols = new ColumnSet(new string[] { "accountid", "ownerid" });
