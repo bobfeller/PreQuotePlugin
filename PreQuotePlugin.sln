@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreQuotePlugin", "PreQuoteP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreOpportunityLose", "..\PreOpportunityLose\PreOpportunityLose.csproj", "{A1DC7C2B-F7A6-4460-AB08-B5FED5717AD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreAcctPlugin", "..\PreAcctPlugin\PreAcctPlugin.csproj", "{FE721BA2-3379-41B7-BA2F-22E541D8D9CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A1DC7C2B-F7A6-4460-AB08-B5FED5717AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1DC7C2B-F7A6-4460-AB08-B5FED5717AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1DC7C2B-F7A6-4460-AB08-B5FED5717AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE721BA2-3379-41B7-BA2F-22E541D8D9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE721BA2-3379-41B7-BA2F-22E541D8D9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE721BA2-3379-41B7-BA2F-22E541D8D9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE721BA2-3379-41B7-BA2F-22E541D8D9CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
