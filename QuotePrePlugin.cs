@@ -72,7 +72,7 @@ namespace ASG.Crm.Sdk.Web
                     // Get a reference to the OpportunityID to see if we need to assign contact to quote rather than account
                     EntityReference opp = (EntityReference)entity["OpportunityId"];
 
-                    if (isUpdate)   
+                    if (isUpdate) 
                     {
                         // Look up Quote for Customer 
                         if (!entity.Contains("customerid"))
