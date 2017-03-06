@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreQuotePlugin", "PreQuotePlugin.csproj", "{5305C493-0818-41F3-961D-FD35215589B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreOpportunityLose", "..\PreOpportunityLose\PreOpportunityLose.csproj", "{A1DC7C2B-F7A6-4460-AB08-B5FED5717AD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5305C493-0818-41F3-961D-FD35215589B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5305C493-0818-41F3-961D-FD35215589B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5305C493-0818-41F3-961D-FD35215589B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DC7C2B-F7A6-4460-AB08-B5FED5717AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DC7C2B-F7A6-4460-AB08-B5FED5717AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DC7C2B-F7A6-4460-AB08-B5FED5717AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DC7C2B-F7A6-4460-AB08-B5FED5717AD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

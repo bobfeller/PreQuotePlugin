@@ -59,19 +59,17 @@ namespace ASG.Crm.Sdk.Web
                     adminService = serviceFactory.CreateOrganizationService(adminUser);
 
                     // See if in Update or Create
-                    if (entity.Contains("quoteid"))
+                    if (context.MessageName.ToLower() == "update")
                     {
-                        if ((Guid)entity["quoteid"] != Guid.Empty)
-                        {
-                            isUpdate = true;
-                            guidQuote = ((Guid)entity["quoteid"]);
-                        }
+                        isUpdate = true;
                     }
 
                     if (entity.Contains("customerid"))
                     {
                         cust = ((EntityReference)entity["customerid"]);
                     }
+
+                    EntityReference opp = (EntityReference)entity["OpportunityID"];
 
                     if (isUpdate)
                     {
