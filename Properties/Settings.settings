@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ASG.Crm.Sdk.Web.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OrgName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">VirtualEnterprises</Value>
+    </Setting>
+    <Setting Name="AdminUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CRMAdmin</Value>
+    </Setting>
+    <Setting Name="AdminPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1nstaLL</Value>
+    </Setting>
+    <Setting Name="AdminDomain" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">VIRTUAL</Value>
+    </Setting>
+    <Setting Name="QuoteURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://virtualenterprises.virtual.com/sfa/quotes/edit.aspx?id=</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
